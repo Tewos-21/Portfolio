@@ -1,0 +1,187 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+
+  
+ /* Project Card Styling */
+/* Projects Section Styling */
+#projects h2 {
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .project-card {
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Overlay Effect */
+  .card-overlay {
+    position: relative;
+  }
+  
+  .card-overlay img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .project-card:hover img {
+    transform: scale(1.1);
+    filter: brightness(70%);
+  }
+  
+  .card-overlay-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    opacity: 0;
+  }
+  
+  .project-card:hover .card-overlay-content {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Card Title and Button Styling */
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .btn-outline-light {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 8px 20px;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  
+  
+  /* Progress bar styling */
+  .progress-bar p {
+    margin: 0;
+    font-weight: bold;
+  }
+
+
+  /* Contact Section Styling */
+#contact h2 {
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Contact Form Container */
+  .contact-form {
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+  /* Input Styling */
+  .custom-input {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0px 4px 8px rgba(74, 144, 226, 0.2);
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .btn-gradient {
+    background: linear-gradient(135deg, #ff6f61, #ff9478);
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn-gradient:hover {
+    background: linear-gradient(135deg, #ff9478, #ff6f61);
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Spacing */
+  @media (min-width: 768px) {
+    .contact-form {
+      padding: 2rem 3rem;
+    }
+  }
+  
+  
+  /* Footer Section Styling */
+.footer-section {
+    background: linear-gradient(135deg, #333333 0%, #111111 100%);
+    color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .footer-title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  /* Social Icon Styling */
+  .social-link {
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #feb47b;
+    transform: translateY(-4px);
+  }
+  
+  /* Small Text Styling */
+  .small-text {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+    margin-top: 10px;
+  }
+  
