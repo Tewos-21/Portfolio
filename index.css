@@ -144,44 +144,57 @@ body {
   }
   
   
-  /* Footer Section Styling */
-.footer-section {
-    background: linear-gradient(135deg, #333333 0%, #111111 100%);
-    color: #ffffff;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  .footer-section {
+    background-color: #212121; /* Dark background color */
   }
   
   .footer-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: #ffffff;
-    font-weight: 600;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-social a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #00bcd4; /* A nice accent color for hover effect */
   }
   
   .footer-social {
     display: flex;
     justify-content: center;
-    gap: 15px;
     margin-top: 10px;
   }
   
-  /* Social Icon Styling */
-  .social-link {
+  .footer-social .social-link {
+    margin: 0 10px;
+  }
+  
+  ul.list-unstyled {
+    padding-left: 0;
+  }
+  
+  ul.list-unstyled li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  ul.list-unstyled li a {
+    text-decoration: none;
     color: #ffffff;
-    font-size: 1.4rem;
-    transition: color 0.3s ease, transform 0.3s ease;
   }
   
-  .social-link:hover {
-    color: #feb47b;
-    transform: translateY(-4px);
+  ul.list-unstyled li a:hover {
+    color: #00bcd4; /* Color on hover */
   }
   
-  /* Small Text Styling */
   .small-text {
-    font-size: 0.9rem;
-    color: #bbbbbb;
-    margin-top: 10px;
+    font-size: 0.875rem;
+    color: #aaa;
   }
+  
   
